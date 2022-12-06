@@ -43,7 +43,6 @@
   </ul>
 </details>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
@@ -59,19 +58,14 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 In order to run this project you need:
 
-```sh
- gem install rails
+```
+Postgres 15
 ```
  -->
 
-To run the project, execute the following command:
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Author <a name="authors"></a>
-
 
 👤 **Author**
 

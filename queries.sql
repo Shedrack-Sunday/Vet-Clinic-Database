@@ -140,3 +140,14 @@ INNER JOIN animals ON animals.id = visits.animals_id
 INNER JOIN species ON species.id = animals.species_id
 WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name LIMIT 1;
+
+
+-- Performance queries to be done inside the BEGIN in data.sql to be rolled back the schema should change to add indexes
+explain analyze SELECT COUNT(*) FROM visits WHERE animals_id = 4;
+-- Create index and run the command again
+
+explain analyze SELECT * FROM visits WHERE vet_id = 2;
+-- Create index and run the command again
+
+explain analyze SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
+-- Create index and run the command again

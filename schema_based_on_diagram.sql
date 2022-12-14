@@ -45,3 +45,10 @@ CREATE TABLE histories_treatments (
   history_id INT REFERENCES medical_histories(id) ON DELETE CASCADE,
   treatment_id INT REFERENCES treatments(id) ON DELETE CASCADE
 );
+
+CREATE INDEX patients_id ON patients(id);
+CREATE INDEX medical_histories_id ON medical_histories(id);
+CREATE INDEX invoices_id ON invoices(id);
+CREATE INDEX treatments_id ON treatments(id);
+CREATE INDEX histories_treatments_history_id ON histories_treatments(history_id);
+CREATE INDEX histories_treatments_treatment_id ON histories_treatments(treatment_id);

@@ -31,6 +31,10 @@
 
 **Vet clinic database: create animals table** 
 
+## Diagram
+
+![DatabaseDiagram](https://user-images.githubusercontent.com/104022866/207643913-99f1b7ff-c402-47e9-8f38-62a38eb50101.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
